@@ -1,5 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+
 body {
     background: black;
+    font-family: 'Pacifico', cursive;
+    color : #fff;
   }
   
   .chest {
@@ -409,12 +414,14 @@ body {
   }
   
   .spark-1 {
+    position: fixed;
     margin-top: -17%;
     margin-left: -60px;
     animation-delay: 1s;
   }
   
   .spark-2 {
+    position: fixed;
     margin-top: 10%;
     margin-left: -225px;
     transform: rotate(45deg);
@@ -422,12 +429,14 @@ body {
   }
   
   .spark-3 {
+    position: fixed;
     margin-top: -50px;
     margin-left: 190px;
     animation-delay: 0.3s;
   }
   
   .spark-4 {
+    position: fixed;
     margin-top: 45px;
     margin-left: -40%;
     animation-delay: 0.7s;
@@ -435,6 +444,7 @@ body {
   }
 
   .spark-5 {
+    position: fixed;
     margin-top: -13%;
     margin-left: -33%;
     animation-delay: 0.7s;
@@ -443,6 +453,7 @@ body {
 
 
   .spark-6 {
+    position: fixed;
     margin-top: 15%;
     margin-left: 20%;
     animation-delay: 0.7s;
@@ -451,12 +462,15 @@ body {
 
 
   .spark-7 {
+    position: fixed;
     margin-top: -9%;
     margin-left: 23%;
     animation-delay: 0.7s;
     transform: scale(1.2);
   }
   
+  
+
   .white {
     background: #fff;
   }
